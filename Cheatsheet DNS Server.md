@@ -39,4 +39,4 @@
 	* vi /etc/sysconfig/network-scripts/...
 	
 pas /etc/resolv.conf aan:
-	* nameserver   [ip-address]	
+* nameserver	  [ip-address]	
