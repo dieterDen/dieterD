@@ -3,15 +3,21 @@
 ## store data in text file
 
 * redirect and append
-..use >> operator
+
+use >> operator
+
 example: Get-Volume >>c:\fso\volumeInfo.txt
 
 * redirect and overwrite
- use > operator
- example: Get-Volume >c:\fso\volumeInfo.txt
+
+use > operator
+
+example: Get-Volume >c:\fso\volumeInfo.txt
 
 * Controlling the text file
+ 
  use Out-File operator
+ 
  example: Get-Service | Format-Table Property * -Force -Auto | Out-File c:\fso\WideServoces.txt -Encoding UTF8 -Width 500
 
 ## Store date in .csv file
