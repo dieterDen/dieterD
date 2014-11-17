@@ -15,6 +15,7 @@ externe verbindingstechnieken
 2. VPN configureren
 
 Authenctication methods: 
+
 	- EAP -> extensible authentication protocol
 	- PAP -> password authentication protocol
 	- CHAP -> Challenge handshake authentication protocol
