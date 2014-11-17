@@ -13,6 +13,7 @@ Get-PSProvider
 
 ### remove alias
 ´remove-item .\Processes`
+
 you must be in the PS Alias dir
 
 ### make new alias with cmdlets -> zie overzicht
@@ -30,8 +31,35 @@ Open certificates MMC
 ### searching for certificates
  `dir Cert:\CurrentUser -Recursive | ? subject -match 'test' `
 
- -whatIf property -> gebruikt als je denkt de staat van het systeem te veranderen.
-
+ -whatIf property -> gebruik als je denkt de staat van het systeem te veranderen.
  
+ - finding expiring certificates
+
+ use property ´notafter´ van certificate object
+
+ example: ´dir .//CurrentUser -Recurse |where notafter -lt "5/1/2012" ´
+
+- cerificates expiring in 30 days
+
+in Cert dir: ´Get-ChildItem -Recurse -ExpiringInDays 30 ´
+
+##Environment provider
+
+gives access to system environment variables
+
+-to see value of a variable: ´echo %windir%´
+
+alternatief: `Get-Item windir` -> in env dir
+
+-listing of environment variables: 
+
+´Set-location env:´
+´dir`
+
+-> alternatief voor dir: ls, gci (Get-childItem)
+
+
+
+
 
 
