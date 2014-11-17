@@ -45,13 +45,14 @@ Toestemming geven om VPN te mogen gebruiken:
 PFSV1: account van uzelf selecteren-> tabblad dial-in -> allow access
 
 3. VPN op PFWS1
+
 login als: PCGebruiker1
 
 	- control panel-> networking and sharing center -> set up a new connection
 	- VPN connection -> IP: 192.168.101.1 ,name ingeven
 	- inloggen via: POLIFORMA\Jan_Sme
 
-4.VPN op werkstation afstemmen op VPN server
+4. VPN op werkstation afstemmen op VPN server
 
 Op PFWS -> networking and sharing centrum -> link VPNPoliforma-> VPNPoliforma status
 
