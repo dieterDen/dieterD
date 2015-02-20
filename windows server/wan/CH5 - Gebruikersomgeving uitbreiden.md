@@ -1,12 +1,14 @@
 ## Gebruikersomgeving uitbreiden
 
 OP PFSV2:
+
 	- nieuw datavolume met ingeschakelde compressie
 	- everyone verwijderen uit ntfs permissies
 	- role service installeren: file and storage services
 	- folders aanmaken: UserFolders, UserProfiles, AfdelingsFolders, AfdelingsFolders/OnderafdelingFabricageHoorn
 	
 Op PFSV1:
+
 	- In AD OU FabricageHoorn aanmaken in OU Productie
 	- global security group: FabricageHoorn
 	- global group Productie is lid van global group FabricageHoorn

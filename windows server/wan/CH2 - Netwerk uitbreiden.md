@@ -1,6 +1,7 @@
 ## CH2 Het netwerk uitbreiden met een nieuwe site
 
 1. Site PfHoorn toevoegen op PFSV1
+
     - MMC AD Sites & Services
     - Sites -> new Site
     - Subnet-> new subnet
@@ -11,6 +12,7 @@ fysiek:
 
 - Huurlijnen (T1, T3, E1, E3) via TSP (Telecommunicatie service provider)
 - Telefoonverbindingen (circuit-switched):
+
     - analoog -> ongeschikt
     - ISDN (integrated Service Digital Network)
     - DSL (digital subscriber line) -> permanente verbinding
@@ -39,9 +41,12 @@ tijd instellen van repliceren-> change shedule
     -> gebruiker kan AD wel niet bewerken
     
     Controle van RODC PFSV2:
+
     - in domain controllers van PFSV1 
     - in site PFHoorn aanwezig
    
 Handmatig repliceren
+
+    - uitvoeren op de RODC
     - MMC AD Sites & services
     - NTDS settings -> replicate now
