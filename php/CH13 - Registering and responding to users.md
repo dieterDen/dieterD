@@ -14,6 +14,25 @@
 
 * delete cookie
 	- pag. 454
+
+
+* bij tonen van datum
+	- gebruik: strtotime() -> will parse a date in an unix timestamp
+	
+* string als getal opslaan in database anders error in database:
+	- $cost+0 -> forces php to convert to number
+	- (float)$_post['class_cost'] -> converts to float
+
+* passing info to php script
+	- via the url -> gebruikt GET method not very safe
+	- use a hidden field and post -> a bit safer
+	- onsubmit="return validate_form(this);" ...>
+	-<input type="hidden" name="classid" value="<?php echo $classid; ?>"/>
+	- zie pag. 481
+
+* adding a payment system:
+	- go to: paypal.com -> business -> need to accept credit cards -> On your website
+
 	
 * Row uit table als object gebruiken:
 	- $row=mysqli_fetch_object($result);
@@ -33,21 +52,4 @@
 
 	- recordID wordt gebruikt in Get method to pass on class_is
 	- $classid=($_get['recordID']);
-
-* bij tonen van datum
-	- gebruik: strtotime() -> will parse a date in an unix timestamp
-	
-* string als getal opslaan in database anders error in database:
-	- $cost+0 -> forces php to convert to number
-	- (float)$_post['class_cost'] -> converts to float
-
-* passing info to php script
-	- via the url -> gebruikt GET method not very safe
-	- use a hidden field and post -> a bit safer
-	- onsubmit="return validate_form(this);" ...>
-	-<input type="hidden" name="classid" value="<?php echo $classid; ?>"/>
-	- zie pag. 481
-
-* adding a payment system:
-	- go to: paypal.com -> business -> need to accept credit cards -> On your website
 
