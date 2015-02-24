@@ -27,7 +27,7 @@
 	- via the url -> gebruikt GET method not very safe
 	- use a hidden field and post -> a bit safer
 	- onsubmit="return validate_form(this);" ...>
-	-<input type="hidden" name="classid" value="<?php echo $classid; ?>"/>
+	- <input type="hidden" name="classid" value="<?php echo $classid; ?>"/>
 	- zie pag. 481
 
 * adding a payment system:
