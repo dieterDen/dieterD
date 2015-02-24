@@ -1,8 +1,8 @@
 # CH13 - Registering and responding to users
 
-## template(html) -> voor altijd dezelfde layout te gebruiken in een webapplicatie
+* template(html) -> voor altijd dezelfde layout te gebruiken in een webapplicatie
 
-## In begin van script, plaats: session_start()
+* In begin van script, plaats: session_start()
 	- anders kan je niet de $_session[] global variabele gebruiken
 
 ## checken of formulier correct ingevuld is met php:
