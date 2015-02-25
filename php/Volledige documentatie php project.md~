@@ -12,7 +12,7 @@
 * check of mod_rewrite enabled is:
 	- ls /etc/apache2/mods_enabled | grep rewrite
 	- -> als dit outputs: rewrite.load -> module enabled
-	- zoniet-> doe:
+	- zoniet: doe:
 	- a2enmod rewrite
 	- service apache2 restart
 
