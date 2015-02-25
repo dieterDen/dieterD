@@ -52,7 +52,7 @@ file connection= file pointer
 
 * Superglobals:
 	- $_SESSION -> session_start()  (pag. 248)
-	- $_SERVER
+	- $_SERVER -> array met informatie over de server
 	- $_COOKIE -> setcookie() -> vb. setcookie(name[,value[,expire [,path [,domain [,secure [,httponly]]]]]]);
 	
 * strpos() -> vind de positie van het eerste voorkomen van een substring in een string

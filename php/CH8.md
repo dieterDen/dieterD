@@ -7,3 +7,4 @@
 * header("Location: ") -> functie om execution te veranderen naar ander script
 
 	- vb. header("Location: signin.php ")
+
