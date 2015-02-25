@@ -21,6 +21,10 @@
 	- sudo /etc/init.d/apache2 restart
 	- sudo /etc/init.d/mysql restart
 	- eventueel heropstarten machine
+	
+* Om te zoeken in nano editor
+	- ctrl + w
+	- volgend item: alt + w
 
 * database information
 
