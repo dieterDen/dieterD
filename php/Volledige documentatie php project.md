@@ -16,5 +16,22 @@
 	- a2enmod rewrite
 	- service apache2 restart
 
-
+# easyUI en data-grid
+	- is jqeury plugin -> minder werk om tabellen en grids te maken
+	
  
+# JQuery EasyUI gebruiken in project:
+
+	- ga naar: http://www.jeasyui.com/download/index.php
+	- download GPL edition
+	- plaats de inhoud in easyUI folder in uw project
+	- om bijvoorbeeld drop-down navigation te creëren
+	- gebruik code menubutton: http://www.jeasyui.com/documentation/menubutton.php
+	- plaats deze in view class
+	- voeg link en script elementen toe: 
+	- link: easyUI/themes/default/easyui.css
+	- link: easyUI/themes/icon.css
+	- link: easyUI/demo/demo.css
+	- script: js/jQuery.js
+	- script: easyUI/jquery.easyui.min.js
+	- script: easyUI/jquery.min.js
