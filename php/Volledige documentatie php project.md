@@ -1,6 +1,17 @@
 ## Volledige documentatie php project 
 
-# mysqli extensie toevoegen -> zie chapters connect met mysqli
+# mysqli extensie toevoegen 
+
+* Om mysqli te gebruiken -> extensie nodig: mysql.so
+	- extension directory -> /usr/lib/php5/20121212
+	- sudo apt-get install php5-mysql
+	- na installatie:
+	- sudo nano /etc/php5/apache2/php.ini
+	- toevoegen van: extension=mysql.so 
+	- opslaan
+	- sudo /etc/init.d/apache2 restart
+	- sudo /etc/init.d/mysql restart
+	- eventueel heropstarten machine
  
 # bij uploaden van file in php
 	- param veranderen php.ini om van 8mb  upload volume te vergroten naar bv. 100mb. 
