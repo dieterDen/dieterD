@@ -1,0 +1,20 @@
+## Volledige documentatie php project 
+
+# mysqli extensie toevoegen -> zie chapters connect met mysqli
+ 
+# bij uploaden van file in php
+	- param veranderen php.ini om van 8mb  upload volume te vergroten naar bv. 100mb. 
+
+
+# RewriteEngine enable
+
+* mod_rewrite is een apache module en geen php module. Om het te gebruiken in php -> gebruik cmd: EngineRewrite
+* check of mod_rewrite enabled is:
+	- ls /etc/apache2/mods_enabled | grep rewrite
+	- -> als dit outputs: rewrite.load -> module enabled
+	- zoniet: doe:
+	- a2enmod rewrite
+	- service apache2 restart
+
+
+ 
