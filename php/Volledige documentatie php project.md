@@ -14,7 +14,14 @@
 	- eventueel heropstarten machine
  
 # bij uploaden van file in php
-	- param veranderen php.ini om van 8mb  upload volume te vergroten naar bv. 100mb. 
+	- param veranderen php.ini om van 8mb  upload volume te vergroten naar bv. 20mb. 
+	- sudo nano /etc/php5/apache2/php.ini
+	- ;Maximum allowed size for uploaded files.
+	upload_max_filesize = 40M
+
+	; Must be greater than or equal to upload_max_filesize
+	post_max_size = 40M 
+
 
 
 # RewriteEngine enable
