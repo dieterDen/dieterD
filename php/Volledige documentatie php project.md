@@ -53,3 +53,11 @@
 	- script: js/jQuery.js
 	- script: easyUI/jquery.easyui.min.js
 	- script: easyUI/jquery.min.js
+
+# Timezone instellen:
+
+	- sudo nano /etc/php5/apache2/php.ini
+	- date.timezone= Europe/Brussels
+	- uit commentaar plaatsen
+	- herstarten van httpd service vereist
+
