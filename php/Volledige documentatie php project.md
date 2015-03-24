@@ -61,3 +61,9 @@
 	- uit commentaar plaatsen
 	- herstarten van httpd service vereist
 
+# Uploaden file in Centos 6.5 -> prerequisites 
+	- sudo vi /etc/httpd/conf/httpd.conf
+	- bij <Directory "/var/www/html"> 
+	- toevoegen: AllowOverride All
+	- restart httpd.service
+	(check of .htaccess file aanwezig is in folder van web applicatie)
