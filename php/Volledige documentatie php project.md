@@ -63,7 +63,10 @@
 
 # Uploaden file in Centos 6.5 -> prerequisites 
 	- sudo vi /etc/httpd/conf/httpd.conf
-	- bij <Directory "/var/www/html"> 
+	- bij <Directory "/var/www/html/extra"> 
 	- toevoegen: AllowOverride All
+	- toevoegen: Options Indexes FollowSymLinks
 	- restart httpd.service
 	(check of .htaccess file aanwezig is in folder van web applicatie)
+
+	
