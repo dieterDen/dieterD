@@ -69,4 +69,13 @@
 	- restart httpd.service
 	(check of .htaccess file aanwezig is in folder van web applicatie)
 
+# Installatie + gebruik apiGen
+
+	- wget http://apigen.org/apigen.phar
+	- chmod +x apigen.phar
+	- sudo mv apigen.phar /usr/local/bin/apigen
+	- sudo apigen --version
+	- sudo apigen generate --help
+	- sudo apigen generate --source [PATH TO DIR PROJECT] --destination [PATH TO TARGET DIRECTORY] --download --title "title" --todo --tree
+
 	
