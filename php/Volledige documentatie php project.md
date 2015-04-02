@@ -78,4 +78,22 @@
 	- sudo apigen generate --help
 	- sudo apigen generate --source [PATH TO DIR PROJECT] --destination [PATH TO TARGET DIRECTORY] --download --title "title" --todo --tree
 
-	
+# Character sets omzetten naar UTF-8 in php en mysql
+	- php: 
+	- sudo vi /etc/php5/cli/php.ini
+	- uncomment: default_charset = "UTF-8"
+	- save en restart service: apache2
+	- controle via: phpinfo();
+	- mysql:
+	- sudo vi /etc/mysql/my.cnf
+	- voeg volgende lijnen toe bij [mysqld]:
+	- init_connect='SET collation_connection = utf8_unicode_ci'
+	- init_connect='SET NAMES utf8'
+	- character-set-server=utf8
+	- collation-server=utf8_unicode_ci
+	- skip-character-set-client-handshake
+	- save and restart service: mysqld
+	- controle via: mysql --user root -p
+	- show variables like "collation_database";
+	- show variables like "%character%"; 
+	- show variables like "%collation%";
