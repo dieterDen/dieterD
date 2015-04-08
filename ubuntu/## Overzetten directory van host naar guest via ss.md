@@ -25,5 +25,5 @@
 	
 ## dump file maken en restoren in mysql 
 	1) mysqldump -u root -p --routines islp > dump20150408.sql
-	2) mysql -U root -p < /home/vagrant/dump20150408.sql
+	2) mysql -U root -p islp < /home/vagrant/dump20150408.sql
 	
