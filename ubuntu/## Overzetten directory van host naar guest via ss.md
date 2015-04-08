@@ -23,3 +23,5 @@
 	5) vi paths.php
 	6) localhost:8000 veranderen naar: 192.168.50.166
 	
+## dump file in mysql plaatsen
+	1) mysql -U root -p < Downloads/code/dup-islp.sql
