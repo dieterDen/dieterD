@@ -23,5 +23,7 @@
 	5) vi paths.php
 	6) localhost:8000 veranderen naar: 192.168.50.166
 	
-## dump file in mysql plaatsen
-	1) mysql -U root -p < Downloads/code/dup-islp.sql
+## dump file maken en restoren in mysql 
+	1) mysqldump -u root -p --routines islp > dump20150408.sql
+	2) mysql -U root -p < /home/vagrant/dump20150408.sql
+	
