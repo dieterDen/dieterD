@@ -6,3 +6,6 @@
 	- xset -dpms
 	- xset s noblank
 	- xset s noexpose 
+
+* Timezone veranderen:
+	- cp /usr/share/zoneinfo/Australia/Melbourne /etc/localtime
